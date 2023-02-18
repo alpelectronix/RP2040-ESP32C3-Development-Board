@@ -124,6 +124,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/hardware_interp/include"
+  "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/SLG46826"
   )
 
 # The set of dependency files which are needed:
@@ -190,6 +191,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/RP2040-ESP32C3_Dev_Board.c" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/RP2040-ESP32C3_Dev_Board.c.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/RP2040-ESP32C3_Dev_Board.c.obj.d"
+  "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/SLG46826/HAL_SLG46826.c" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/SLG46826/HAL_SLG46826.c.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/SLG46826/HAL_SLG46826.c.obj.d"
+  "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/SLG46826/SLG46826.c" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/SLG46826/SLG46826.c.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/SLG46826/SLG46826.c.obj.d"
   "C:/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/RP2040-ESP32C3_Dev_Board.dir/C_/Users/Caner/Documents/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

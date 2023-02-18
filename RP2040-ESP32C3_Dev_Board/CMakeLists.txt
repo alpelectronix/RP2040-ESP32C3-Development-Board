@@ -11,6 +11,8 @@ set(PICO_SDK_PATH "C:/Users/Caner/Documents/Pico/pico-sdk")
 
 set(PICO_BOARD pico CACHE STRING "Board type")
 
+
+
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
@@ -33,6 +35,14 @@ pico_set_program_version(RP2040-ESP32C3_Dev_Board "0.1")
 pico_enable_stdio_uart(RP2040-ESP32C3_Dev_Board 0)
 pico_enable_stdio_usb(RP2040-ESP32C3_Dev_Board 1)
 
+add_subdirectory(SLG46826)
+
+# Peripherals depend on pico_stdlib only.
+#target_link_libraries(SLG46826 PUBLIC pico_stdlib)
+
+# Peripherals depend on pico_stdlib only.
+#target_link_libraries(HAL_SLG46826 PUBLIC pico_stdlib)
+
 # Add the standard library to the build
 target_link_libraries(RP2040-ESP32C3_Dev_Board
         pico_stdlib)
@@ -42,6 +52,8 @@ target_include_directories(RP2040-ESP32C3_Dev_Board PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
   ${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
 )
+
+
 
 # Add any user requested libraries
 target_link_libraries(RP2040-ESP32C3_Dev_Board
@@ -53,6 +65,8 @@ target_link_libraries(RP2040-ESP32C3_Dev_Board
         hardware_timer
         hardware_watchdog
         hardware_clocks
+        SLG46826
+        HAL_SLG46826
         )
 
 pico_add_extra_outputs(RP2040-ESP32C3_Dev_Board)

@@ -1809,6 +1809,54 @@ RP2040-ESP32C3_Dev_Board.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\RP2040-ESP32C3_Dev_Board.c.s
 .PHONY : RP2040-ESP32C3_Dev_Board.c.s
 
+SLG46826\HAL_SLG46826.obj: SLG46826\HAL_SLG46826.c.obj
+.PHONY : SLG46826\HAL_SLG46826.obj
+
+# target to build an object file
+SLG46826\HAL_SLG46826.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\HAL_SLG46826.c.obj
+.PHONY : SLG46826\HAL_SLG46826.c.obj
+
+SLG46826\HAL_SLG46826.i: SLG46826\HAL_SLG46826.c.i
+.PHONY : SLG46826\HAL_SLG46826.i
+
+# target to preprocess a source file
+SLG46826\HAL_SLG46826.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\HAL_SLG46826.c.i
+.PHONY : SLG46826\HAL_SLG46826.c.i
+
+SLG46826\HAL_SLG46826.s: SLG46826\HAL_SLG46826.c.s
+.PHONY : SLG46826\HAL_SLG46826.s
+
+# target to generate assembly for a file
+SLG46826\HAL_SLG46826.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\HAL_SLG46826.c.s
+.PHONY : SLG46826\HAL_SLG46826.c.s
+
+SLG46826\SLG46826.obj: SLG46826\SLG46826.c.obj
+.PHONY : SLG46826\SLG46826.obj
+
+# target to build an object file
+SLG46826\SLG46826.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\SLG46826.c.obj
+.PHONY : SLG46826\SLG46826.c.obj
+
+SLG46826\SLG46826.i: SLG46826\SLG46826.c.i
+.PHONY : SLG46826\SLG46826.i
+
+# target to preprocess a source file
+SLG46826\SLG46826.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\SLG46826.c.i
+.PHONY : SLG46826\SLG46826.c.i
+
+SLG46826\SLG46826.s: SLG46826\SLG46826.c.s
+.PHONY : SLG46826\SLG46826.s
+
+# target to generate assembly for a file
+SLG46826\SLG46826.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\SLG46826\SLG46826.c.s
+.PHONY : SLG46826\SLG46826.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2025,6 +2073,12 @@ help:
 	@echo ... RP2040-ESP32C3_Dev_Board.obj
 	@echo ... RP2040-ESP32C3_Dev_Board.i
 	@echo ... RP2040-ESP32C3_Dev_Board.s
+	@echo ... SLG46826/HAL_SLG46826.obj
+	@echo ... SLG46826/HAL_SLG46826.i
+	@echo ... SLG46826/HAL_SLG46826.s
+	@echo ... SLG46826/SLG46826.obj
+	@echo ... SLG46826/SLG46826.i
+	@echo ... SLG46826/SLG46826.s
 .PHONY : help
 
 

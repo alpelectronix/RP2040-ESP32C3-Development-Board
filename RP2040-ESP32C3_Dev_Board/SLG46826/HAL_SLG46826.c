@@ -1,5 +1,3 @@
-
-
 #include "HAL_SLG46826.h"
 
 
@@ -16,7 +14,7 @@ void SLD46826_gpioInit (void){
 
 uint8_t SLG_I2Csend(uint8_t data){
 
-    return i2c_write_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data[0],1 , false, I2C_TIMEOUT);
+    return i2c_write_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1 , false, I2C_TIMEOUT);
 }
 
 /*
@@ -25,12 +23,11 @@ uint8_t SLG_I2Csend(uint8_t data){
 uint8_t SLG_I2Cread(void){
 
     uint8_t data;
-    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data[0],1, false, I2C_TIMEOUT);
+    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1, false, I2C_TIMEOUT);
 }
 
 
 uint8_t SLG_I2CreadEx(uint8_t * data, uint8_t size){
 
-    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data[0],1, false, I2C_TIMEOUT);
-    return 1;
+    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1, false, I2C_TIMEOUT);
 }

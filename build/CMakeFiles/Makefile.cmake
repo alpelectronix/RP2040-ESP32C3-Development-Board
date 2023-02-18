@@ -126,6 +126,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Caner/Documents/Pico/pico-sdk/tools/FindELF2UF2.cmake"
   "C:/Users/Caner/Documents/Pico/pico-sdk/tools/FindPioasm.cmake"
   "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/CMakeLists.txt"
+  "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/SLG46826/CMakeLists.txt"
   "E:/RP2040-ESP32C3 Development Board/RP2040-ESP32C3_Dev_Board/pico_sdk_import.cmake"
   "CMakeFiles/3.25.0/CMakeASMCompiler.cmake"
   "CMakeFiles/3.25.0/CMakeCCompiler.cmake"
@@ -226,6 +227,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SLG46826/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

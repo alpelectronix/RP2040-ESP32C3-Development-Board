@@ -2,7 +2,20 @@
     "files.associations": {
         "spi.h": "c",
         "i2c.h": "c",
-        "slg46826.h": "c"
+        "slg46826.h": "c",
+        "hal_slg46826.h": "c",
+        "stdlib.h": "c",
+        "interp.h": "c",
+        "pio.h": "c",
+        "dma.h": "c",
+        "time.h": "c",
+        "pico.h": "c",
+        "config.h": "c",
+        "version.h": "c",
+        "types.h": "c",
+        "platform.h": "c",
+        "error.h": "c",
+        "stdio.h": "c"
     },
     "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board",
     "C_Cpp.errorSquiggles": "disabled"

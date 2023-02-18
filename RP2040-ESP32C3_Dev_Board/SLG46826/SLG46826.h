@@ -1343,10 +1343,10 @@ bool writeSlg(uint8_t controlCode, const uint8_t data[256], uint8_t mode);
 bool eraseSlg(uint8_t controlCode);
 bool resetSlg(uint8_t controlCode);
 bool digitalRead(uint8_t controlCode, uint8_t pin);
-void writeReg(uint8_t reg, uint8_t data);
-void writeRegEx(uint8_t reg, const uint8_t *data, uint8_t size);
-uint8_t readReg(uint8_t reg);
-void readRegEx(uint8_t reg, uint8_t *data, uint8_t size);
+void writeReg(uint8_t address, uint8_t reg, uint8_t data);
+void writeRegEx(uint8_t address, uint8_t reg, const uint8_t *data, uint8_t size);
+uint8_t readReg(uint8_t address, uint8_t reg);
+void readRegEx(uint8_t address, uint8_t reg, uint8_t *data, uint8_t size);
 void debug_print_slg46826();
 
 

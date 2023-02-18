@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "hardware/i2c.h"
+#include "pico/stdlib.h"
 
-#define I2C_INSTANCE            I2C0
+#define I2C_INSTANCE            i2c0
 #define DEVICE_ADDRESS          0x08 // Check this
 #define I2C_TIMEOUT             250 // Check this
 

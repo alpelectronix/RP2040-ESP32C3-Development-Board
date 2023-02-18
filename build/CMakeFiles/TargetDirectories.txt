@@ -154,3 +154,5 @@ E:/RP2040-ESP32C3 Development Board/build/pico-sdk/src/rp2040/hardware_structs/C
 E:/RP2040-ESP32C3 Development Board/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 E:/RP2040-ESP32C3 Development Board/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 E:/RP2040-ESP32C3 Development Board/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+E:/RP2040-ESP32C3 Development Board/build/SLG46826/CMakeFiles/edit_cache.dir
+E:/RP2040-ESP32C3 Development Board/build/SLG46826/CMakeFiles/rebuild_cache.dir
