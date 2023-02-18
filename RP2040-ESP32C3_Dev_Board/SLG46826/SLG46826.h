@@ -1,6 +1,7 @@
 #ifndef __SLG46826_H__
 #define __SLG46826H__
 
+
 typedef struct {
   union {
     struct {

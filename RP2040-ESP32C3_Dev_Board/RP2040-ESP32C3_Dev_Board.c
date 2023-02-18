@@ -9,7 +9,7 @@
 #include "hardware/watchdog.h"
 #include "hardware/clocks.h"
 #include "SLG46826/SLG46826.h"
-
+#include "SLG46826/HAL_SLG46826.h"
 // SPI Defines
 // We are going to use SPI 0, and allocate it to the following GPIO pins
 // Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
@@ -18,13 +18,6 @@
 #define PIN_CS   17
 #define PIN_SCK  18
 #define PIN_MOSI 19
-
-// I2C defines
-// This example will use I2C0 on GPIO8 (SDA) and GPIO9 (SCL) running at 400KHz.
-// Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
-#define I2C_PORT i2c0
-#define I2C_SDA 24
-#define I2C_SCL 25
 
 
 int64_t alarm_callback(alarm_id_t id, void *user_data) {
@@ -48,17 +41,9 @@ int main()
     // Chip select is active-low, so we'll initialise it to a driven-high state
     gpio_set_dir(PIN_CS, GPIO_OUT);
     gpio_put(PIN_CS, 1);
+
+    SLD46826_gpioInit();
     
-
-    // I2C Initialisation. Using it at 400Khz.
-    i2c_init(I2C_PORT, 400*1000);
-    
-    gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
-    gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
-    gpio_pull_up(I2C_SDA);
-    gpio_pull_up(I2C_SCL);
-
-
     // Interpolator example code
     interp_config cfg = interp_default_config();
     // Now use the various interpolator library functions for your use case
@@ -72,6 +57,8 @@ int main()
 
 
     puts("Hello, world!");
+
+
 
     return 0;
 }

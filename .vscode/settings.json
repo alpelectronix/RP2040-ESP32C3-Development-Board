@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "spi.h": "c",
-        "i2c.h": "c"
+        "i2c.h": "c",
+        "slg46826.h": "c"
     },
-    "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board"
+    "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board",
+    "C_Cpp.errorSquiggles": "disabled"
 }

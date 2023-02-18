@@ -90,4 +90,5 @@ CMakeFiles\RP2040-ESP32C3_Dev_Board.dir\RP2040-ESP32C3_Dev_Board.c.obj: \
  C:\Users\Caner\Documents\Pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
  C:\Users\Caner\Documents\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
  C:\Users\Caner\Documents\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
- E:\RP2040-ESP32C3\ Development\ Board\RP2040-ESP32C3_Dev_Board\SLG46826/SLG46826.h
+ E:\RP2040-ESP32C3\ Development\ Board\RP2040-ESP32C3_Dev_Board\SLG46826/SLG46826.h \
+ E:\RP2040-ESP32C3\ Development\ Board\RP2040-ESP32C3_Dev_Board\SLG46826/HAL_SLG46826.h
