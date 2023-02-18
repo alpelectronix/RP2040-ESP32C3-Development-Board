@@ -22,5 +22,5 @@
       "watchdog.h": "c",
       "timer.h": "c"
     },
-    "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board",
+    "cmake.sourceDirectory": "${workspaceFolder}/.",
 }

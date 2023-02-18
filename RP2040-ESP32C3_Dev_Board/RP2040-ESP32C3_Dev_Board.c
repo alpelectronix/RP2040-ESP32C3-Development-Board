@@ -8,6 +8,7 @@
 #include "hardware/timer.h"
 #include "hardware/watchdog.h"
 #include "hardware/clocks.h"
+#include "SLG46826/SLG46826.h"
 
 // SPI Defines
 // We are going to use SPI 0, and allocate it to the following GPIO pins
@@ -22,8 +23,8 @@
 // This example will use I2C0 on GPIO8 (SDA) and GPIO9 (SCL) running at 400KHz.
 // Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
 #define I2C_PORT i2c0
-#define I2C_SDA 8
-#define I2C_SCL 9
+#define I2C_SDA 24
+#define I2C_SCL 25
 
 
 int64_t alarm_callback(alarm_id_t id, void *user_data) {
@@ -58,7 +59,6 @@ int main()
     gpio_pull_up(I2C_SCL);
 
 
-
     // Interpolator example code
     interp_config cfg = interp_default_config();
     // Now use the various interpolator library functions for your use case
@@ -69,8 +69,6 @@ int main()
 
     // Timer example code - This example fires off the callback after 2000ms
     add_alarm_in_ms(2000, alarm_callback, NULL, false);
-
-
 
 
     puts("Hello, world!");

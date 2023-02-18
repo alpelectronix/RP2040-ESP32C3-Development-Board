@@ -368,18 +368,18 @@ Disassembly of section .text:
 10000352:	4828      	ldr	r0, [pc, #160]	; (100003f4 <main+0xe0>)
 10000354:	f007 f80e 	bl	10007374 <i2c_init>
 10000358:	2103      	movs	r1, #3
-1000035a:	2008      	movs	r0, #8
+1000035a:	2018      	movs	r0, #24
 1000035c:	f000 f85a 	bl	10000414 <gpio_set_function>
 10000360:	2103      	movs	r1, #3
-10000362:	2009      	movs	r0, #9
+10000362:	2019      	movs	r0, #25
 10000364:	f000 f856 	bl	10000414 <gpio_set_function>
 10000368:	2200      	movs	r2, #0
 1000036a:	2101      	movs	r1, #1
-1000036c:	2008      	movs	r0, #8
+1000036c:	2018      	movs	r0, #24
 1000036e:	f000 f869 	bl	10000444 <gpio_set_pulls>
 10000372:	2200      	movs	r2, #0
 10000374:	2101      	movs	r1, #1
-10000376:	2009      	movs	r0, #9
+10000376:	2019      	movs	r0, #25
 10000378:	f000 f864 	bl	10000444 <gpio_set_pulls>
 1000037c:	4b1e      	ldr	r3, [pc, #120]	; (100003f8 <main+0xe4>)
 1000037e:	22f8      	movs	r2, #248	; 0xf8
