@@ -19,7 +19,14 @@
 #define PIN_SCK  18
 #define PIN_MOSI 19
 
-
+//TODO: change to timeout functions
+// BUG 
+// HACK 
+// FIXME 
+//NOTE 
+// COMMENT 
+// [ ] 
+// [x] 
 
 
 int64_t alarm_callback(alarm_id_t id, void *user_data) {

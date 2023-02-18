@@ -19,4 +19,8 @@
     },
     "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board",
     "C_Cpp.errorSquiggles": "disabled"
+
+    
 }
+
+

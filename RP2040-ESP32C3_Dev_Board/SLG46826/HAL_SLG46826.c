@@ -14,7 +14,9 @@ void SLD46826_gpioInit (void){
 
 uint8_t SLG_I2Csend(uint8_t data){
 
-    return i2c_write_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1 , false, I2C_TIMEOUT);
+// TODO: change to timeout functions
+
+    return i2c_write_blocking(I2C_INSTANCE, DEVICE_ADDRESS, &data,1 , false);
 }
 
 /*
@@ -23,11 +25,14 @@ uint8_t SLG_I2Csend(uint8_t data){
 uint8_t SLG_I2Cread(void){
 
     uint8_t data;
-    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1, false, I2C_TIMEOUT);
+
+// TODO: change to timeout functions
+
+    return i2c_read_blocking(I2C_INSTANCE, DEVICE_ADDRESS, &data,1, false);
 }
 
 
 uint8_t SLG_I2CreadEx(uint8_t * data, uint8_t size){
 
-    return i2c_read_blocking_until(I2C_INSTANCE, DEVICE_ADDRESS, &data,1, false, I2C_TIMEOUT);
+    return i2c_read_blocking(I2C_INSTANCE, DEVICE_ADDRESS, data ,1, false);
 }
