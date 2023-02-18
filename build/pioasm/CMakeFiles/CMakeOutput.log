@@ -1,0 +1,37 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.34.31937.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/RP2040-ESP32C3 Development Board/build/pioasm/CMakeFiles/3.25.0/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/RP2040-ESP32C3 Development Board/build/pioasm/CMakeFiles/CMakeScratch/TryCompile-uzh061
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_d601b\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d601b.dir\build.make /nologo -L                  CMakeFiles\cmTC_d601b.dir\build
+Building CXX object CMakeFiles/cmTC_d601b.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_d601b.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir="E:\RP2040-ESP32C3 Development Board\build\pioasm\CMakeFiles\CMakeScratch\TryCompile-uzh061" --filter-prefix="Note: including file: " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\cl.exe @C:\Users\Caner\AppData\Local\Temp\nm57EB.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d601b.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d601b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100203~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100203~1.0\x86\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d601b.dir\objects1 @C:\Users\Caner\AppData\Local\Temp\nm583A.tmp
+
+
+

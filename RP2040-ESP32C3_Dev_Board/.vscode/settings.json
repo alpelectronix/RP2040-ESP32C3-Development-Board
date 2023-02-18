@@ -1,0 +1,26 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.statusbar.advanced": {
+    "debug" : {
+      "visibility": "hidden"
+              },    "launch" : {
+      "visibility": "hidden"
+               },
+    "build" : {
+      "visibility": "hidden"
+               },
+    "buildTarget" : {
+      "visibility": "hidden"
+               },
+    },
+    "files.associations": {
+      "stdlib.h": "c",
+      "dma.h": "c",
+      "i2c.h": "c",
+      "spi.h": "c",
+      "interp.h": "c",
+      "watchdog.h": "c",
+      "timer.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board",
+}

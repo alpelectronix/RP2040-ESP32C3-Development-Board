@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "spi.h": "c",
+        "i2c.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/RP2040-ESP32C3_Dev_Board"
+}
