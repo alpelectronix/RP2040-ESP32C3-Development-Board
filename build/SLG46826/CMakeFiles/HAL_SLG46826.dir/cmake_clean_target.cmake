@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libHAL_SLG46826.a"
-)
