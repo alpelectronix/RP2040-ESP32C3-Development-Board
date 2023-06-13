@@ -4,5 +4,8 @@ if (NOT PICO_NO_HARDWARE)
     add_subdirectory("lcd/examples/AlpElectronixLogo")
     add_subdirectory(io_expander)
     add_subdirectory("io_expander/examples/HelloWorld")
+    add_subdirectory(sd_card)
+    add_subdirectory("sd_card/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI" build)
+    add_subdirectory("sd_card/examples/SDWrite")
 endif ()
 
