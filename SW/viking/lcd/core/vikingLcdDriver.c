@@ -159,16 +159,16 @@ void lcdInit()
     sleep_ms(10);
 
     // MADCTL (36h): Memory Data Access Control
-    // - Page Address Order            = Top to Bottom
-    // - Column Address Order          = Left to Right
+    // - Page Address Order            = Bottom to Top
+    // - Column Address Order          = Right to Left
     // - Page/Column Order             = Normal Mode
     // - Line Address Order            = LCD Refresh Top to Bottom
     // - RGB/BGR Order                 = RGB
     // - Display Data Latch Data Order = LCD Refresh Left to Right
-    sendLcdCommand(0x36, (uint8_t[]){0x00}, 1);
+    sendLcdCommand(0x36, (uint8_t[]){0xC0}, 1);
 
-    st7789_caset_parallel(0, WIDTH);
-    st7789_raset_parallel(0, HEIGHT);
+    st7789_caset_parallel(XSHIFT, WIDTH + XSHIFT - 1);
+    st7789_raset_parallel(0, HEIGHT - 1);
 
     // INVON (21h): Display Inversion On
     sendLcdCommand(0x21, NULL, 0);
@@ -185,6 +185,6 @@ void lcdInit()
 
 void lcdSetCursor(uint16_t x, uint16_t y)
 {
-    st7789_caset_parallel(x, WIDTH);
-    st7789_raset_parallel(y, HEIGHT);
+    st7789_caset_parallel(x + XSHIFT, WIDTH + XSHIFT - 1);
+    st7789_raset_parallel(y, HEIGHT - 1);
 }
