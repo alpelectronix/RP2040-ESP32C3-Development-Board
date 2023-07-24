@@ -21,8 +21,8 @@ typedef enum _LCD_CONFIG
     DATA6 = 6,      // GPIO6
     DATA7 = 7,      // GPIO7
     WRITE = 10,     // GPIO10
-    READ = 9,       // GPIO9
-    DC = 8,         // GPIO8
+    READ = 8,       // GPIO8
+    DC = 9,         // GPIO9
     BACKLIGHT = 28, // GPIO28
     XSHIFT = 35,
     WIDTH = 170,
