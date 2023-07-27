@@ -101,6 +101,8 @@ int main()
     disp_drv.draw_buf = &disp_buf;
     disp_drv.hor_res = WIDTH;
     disp_drv.ver_res = HEIGHT;
+//     disp_drv.sw_rotate = 1;
+//    disp_drv.rotated = LV_DISP_ROT_90;
     lv_disp_drv_register(&disp_drv);
 
     lv_obj_t *label = lv_label_create(lv_scr_act());

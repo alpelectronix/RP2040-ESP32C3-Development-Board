@@ -24,9 +24,9 @@ typedef enum _LCD_CONFIG
     READ = 8,       // GPIO8
     DC = 9,         // GPIO9
     BACKLIGHT = 28, // GPIO28
-    XSHIFT = 35,
-    WIDTH = 170,
-    HEIGHT = 320
+    YSHIFT = 35,
+    WIDTH = 320,
+    HEIGHT = 170
 } LCD_CONFIG;
 
 typedef enum _LCD_MODE
