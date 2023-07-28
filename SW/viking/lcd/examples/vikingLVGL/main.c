@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 #include "pico/stdlib.h"
-#include "lvgl/lvgl.h"
+#include "../../../libs/lvgl/lvgl.h"
 #include "pico/binary_info.h"
-#include "../../core/vikingLcdDriver.h"
+#include "vikingLcdDriver.h"
 
 #define BUFFER_SIZE (WIDTH * HEIGHT)
 
@@ -45,10 +45,10 @@ bool repeating_timer_callback(struct repeating_timer *t)
 void lv_example_chart_1(void)
 {
     lv_obj_t *chart = lv_chart_create(lv_scr_act());
-    lv_obj_set_size(chart, 120, 240);
+    lv_obj_set_size(chart, 240, 120);
     lv_obj_center(chart);
     lv_chart_set_type(chart, LV_CHART_TYPE_LINE); /*Show lines and points too*/
-    lv_chart_set_div_line_count(chart, 20, 10);
+    lv_chart_set_div_line_count(chart, 10, 20);
 
     /*Add two data series*/
     lv_chart_series_t *ser1 = lv_chart_add_series(chart, lv_palette_main(LV_PALETTE_RED), LV_CHART_AXIS_PRIMARY_Y);
@@ -107,13 +107,13 @@ int main()
 
     lv_obj_t *label = lv_label_create(lv_scr_act());
     lv_label_set_text(label, "Alp Electronix");
-    lv_obj_align(label, LV_ALIGN_TOP_MID, 0, 10);
+    lv_obj_align(label, LV_ALIGN_TOP_MID, 0, 5);
 
     lv_example_chart_1();
 
     lv_obj_t *label2 = lv_label_create(lv_scr_act());
     lv_label_set_text(label2, "now supports LVGL !");
-    lv_obj_align(label2, LV_ALIGN_BOTTOM_MID, 0, -10);
+    lv_obj_align(label2, LV_ALIGN_BOTTOM_MID, 0, -5);
 
     repeating_timer_t myTimer;
     add_repeating_timer_ms(1, repeating_timer_callback, NULL, &myTimer);

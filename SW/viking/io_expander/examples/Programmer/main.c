@@ -130,6 +130,6 @@ int main()
 {
     setup();
     writeChip();
-    // eraseChip(); You can comment out writeChip and use eraseChip() in order to erase the NVM.
+    //eraseChip(); //You can comment out writeChip and use eraseChip() in order to erase the NVM.
     sleep_ms(10);
 }

@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include <stdio.h>
 
-#include "../../core/vikingLcdDriver.h"
+#include "vikingLcdDriver.h"
 #include "AlpElectronixLogo.h"
 
 void customBacklightCallbackFunction()

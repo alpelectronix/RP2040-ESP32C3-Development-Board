@@ -1,4 +1,4 @@
-[submodule "SW/viking/lcd/examples/vikingLVGL/lvgl"]
-	path = SW/viking/lcd/examples/vikingLVGL/lvgl
+[submodule "SW/viking/libs/lvgl"]
+	path = SW/viking/libs/lvgl
 	url = https://github.com/lvgl/lvgl.git
 	branch = release/8.2

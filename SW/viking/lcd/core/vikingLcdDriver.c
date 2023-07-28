@@ -161,7 +161,7 @@ void lcdInit()
     // MADCTL (36h): Memory Data Access Control
     // - Page Address Order            = Top to Bottom
     // - Column Address Order          = Right to Left
-    // - Page/Column Order             = Normal Mode
+    // - Page/Column Order             = Reverse Mode
     // - Line Address Order            = LCD Refresh Top to Bottom
     // - RGB/BGR Order                 = RGB
     // - Display Data Latch Data Order = LCD Refresh Left to Right
@@ -185,6 +185,6 @@ void lcdInit()
 
 void lcdSetCursor(uint16_t x, uint16_t y)
 {
-    st7789_caset_parallel(x , WIDTH - 1);
-    st7789_raset_parallel(y + YSHIFT, HEIGHT + YSHIFT  - 1);
+    st7789_caset_parallel(x, WIDTH - 1);
+    st7789_raset_parallel(y + YSHIFT, HEIGHT + YSHIFT - 1);
 }
