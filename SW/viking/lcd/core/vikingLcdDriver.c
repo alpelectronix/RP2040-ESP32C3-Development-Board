@@ -41,6 +41,8 @@ void setLcdMode(LCD_MODE mode)
     gpio_put(DC, mode);
     sleep_us(1);
 }
+
+
 void sendLcdData(uint8_t data)
 {
     volatile LCD_DATA tempData;
@@ -49,7 +51,15 @@ void sendLcdData(uint8_t data)
     sleep_us(1);
     gpio_put(WRITE, 1);
 
-    gpio_put(DATA0, tempData.d0);
+//TODO    Change to Paralel write at once!     
+//        gpio_set_mask(mask);
+//        gpio_clr_mask(~mask);
+// Test it
+
+    gpio_set_mask(data & 0x000000FF);
+    gpio_clr_mask((~data) & 0x000000FF); 
+
+ /*   gpio_put(DATA0, tempData.d0);
     gpio_put(DATA1, tempData.d1);
     gpio_put(DATA2, tempData.d2);
     gpio_put(DATA3, tempData.d3);
@@ -57,7 +67,7 @@ void sendLcdData(uint8_t data)
     gpio_put(DATA5, tempData.d5);
     gpio_put(DATA6, tempData.d6);
     gpio_put(DATA7, tempData.d7);
-
+*/
     sleep_us(1);
     gpio_put(WRITE, 0);
     sleep_us(1);
