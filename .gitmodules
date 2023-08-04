@@ -2,7 +2,7 @@
 [submodule "SW/viking/libs/lvgl"]
 	path = SW/viking/libs/lvgl
 	url = https://github.com/lvgl/lvgl.git
-	branch = release/v8.2
+	branch = release/v8.3git 
 [submodule "SW/pico-sdk"]
 	path = SW/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
