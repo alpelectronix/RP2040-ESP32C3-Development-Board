@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "pico/stdlib.h"
-#include "../../../libs/lvgl/lvgl.h"
+#include "lvgl.h"
 #include "pico/binary_info.h"
 #include "vikingLcdDriver.h"
 

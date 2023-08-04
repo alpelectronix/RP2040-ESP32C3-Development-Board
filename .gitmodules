@@ -3,3 +3,10 @@
 	path = SW/viking/libs/lvgl
 	url = https://github.com/lvgl/lvgl.git
 	branch = release/v8.2
+[submodule "SW/pico-sdk"]
+	path = SW/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+	branch = release/1.5.1
+[submodule "SW/viking/libs/FatFS"]
+	path = SW/viking/libs/FatFS
+	url = https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico.git

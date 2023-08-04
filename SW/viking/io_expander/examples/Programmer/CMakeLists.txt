@@ -8,5 +8,5 @@ target_link_libraries(Programmer PRIVATE pico_stdlib hardware_i2c)
 pico_add_extra_outputs(Programmer)
 
 # add url via pico_set_program_url
-example_auto_set_url(Programmer)
+#example_auto_set_url(Programmer)
 

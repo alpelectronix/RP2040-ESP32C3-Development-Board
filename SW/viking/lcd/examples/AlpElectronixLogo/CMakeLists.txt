@@ -9,4 +9,4 @@ target_link_libraries(AlpElectronixLogo PRIVATE vikingLcd hardware_pwm)
 pico_add_extra_outputs(AlpElectronixLogo)
 
 # add url via pico_set_program_url
-example_auto_set_url(AlpElectronixLogo)
+#example_auto_set_url(AlpElectronixLogo)
