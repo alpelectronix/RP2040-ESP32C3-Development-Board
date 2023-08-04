@@ -1,0 +1,5 @@
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/elf2uf2/CMakeFiles/edit_cache.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

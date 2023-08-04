@@ -1,0 +1,3 @@
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pioasm/CMakeFiles/pioasm.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pioasm/CMakeFiles/rebuild_cache.dir

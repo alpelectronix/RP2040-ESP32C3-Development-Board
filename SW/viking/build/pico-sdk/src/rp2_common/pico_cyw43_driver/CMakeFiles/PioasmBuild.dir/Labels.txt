@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/hakan/VSCodeProjects/RP2040-ESP32C3-Development-Board/SW/viking/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

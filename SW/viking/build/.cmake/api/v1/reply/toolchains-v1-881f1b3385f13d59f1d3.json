@@ -1,0 +1,108 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/include",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/include-fixed",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-gcc",
+				"version" : "12.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/12.3.1",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/12.3.1/arm-none-eabi/thumb/v6-m/nofp",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/12.3.1/backward",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/include",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/include-fixed",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/12.3.1",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/lib/gcc",
+						"/Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/arm-none-eabi/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "/opt/homebrew/bin/arm-none-eabi-g++",
+				"version" : "12.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
